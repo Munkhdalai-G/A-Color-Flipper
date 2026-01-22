@@ -19,6 +19,7 @@
   flex-direction: row;
   justify-content: space-around;
   height: 20%;
+  padding-top: 40px;
 }
 
 .bg {
@@ -41,4 +42,20 @@
 }
 .button:active {
   color: red;
+}
+.click {
+  display: flex;
+  flex-direction: column;
+}
+.sized {
+  font-size: 25px;
+}
+.hd {
+  background-image: linear-gradient(to right, #ff00cc, #3333ff);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
